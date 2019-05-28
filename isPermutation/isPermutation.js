@@ -19,7 +19,7 @@ function isPermutation(string1, string2) {
 	}
 
 	for (let i in charTable) {
-		if (charTable[i] != 0) {
+		if (charTable[i] !== 0) {
 			return false;
 		} 
 	}
